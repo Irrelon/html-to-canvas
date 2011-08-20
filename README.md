@@ -29,7 +29,12 @@ Click the "Render" button top-right.
 
 You can edit the HTML that the test renders by editing the ./views/test1.html and ./views/test1.css files.
 
+#License
+This code is free to use, distribute, modify, copy, and whatever else you care to do with it. If you make a change that is beneficial, please consider forking this project and then submitting a pull request! Don't forget to click +1 on our project's blog page: http://www.isogenicengine.com/2011/08/19/rendering-html-css-to-canvas/
+
 #Isogenic Game Engine
-This project is part of the Isogenic Game Engine, an HTML5 Networked, MMO, Isometric and 2D, Canvas or DOM, Realtime game engine for the modern web. (http://www.isogenicengine.com).
+This project is part of the Isogenic Game Engine, an HTML5 Networked, MMO, Isometric and 2D, Canvas or DOM, Realtime game engine for the modern web. http://www.isogenicengine.com.
 
 If you like this project, please +1 us on our site!
+
+A large amount of our work goes to open-source projects so please support us!
