@@ -1,0 +1,70 @@
+/* CSS Document */
+.testClass1 {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:100px;
+	height:50px;
+	background-color:#CCC;
+	border:10px solid;
+	border-left-color:#0FF;
+	border-top-color:#0F0;
+	border-right-color:#00F;
+	border-bottom-color:#F0F;
+	border-radius:10px;
+	background-image:url(http://www.wonderbackgrounds.com/retro/backgrounds/retro_background_01.gif);
+}
+
+.testClass2 {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:100px;
+	height:50px;
+	background-color:#CCC;
+	border:1px solid;
+	border-left-color:#0FF;
+	border-top-color:#0F0;
+	border-right-color:#00F;
+	border-bottom-color:#F0F;
+	border-radius:10px;
+	background-image:url(http://www.wonderbackgrounds.com/retro/backgrounds/retro_background_a2.gif);
+}
+
+.testClass3 {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:50px;
+	height:100px;
+	background-color:#C90;
+}
+
+.testClass4 {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:50px;
+	height:100px;
+	background-image:url(http://www.glyphlab.com/img/XP_Vista_icons.jpg);
+	border:5px solid;
+	border-left-color:#0FF;
+	border-top-color:#0F0;
+	border-right-color:#00F;
+	border-bottom-color:#F0F;
+	border-radius:30px;
+}
+
+.testClass5 {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:100px;
+	height:20px;
+	background-image:url(http://www.glyphlab.com/img/XP_Vista_icons.jpg);
+	border:5px solid;
+	border-left-color:#0FF;
+	border-top-color:#0F0;
+	border-right-color:#00F;
+	border-bottom-color:#F0F;
+}

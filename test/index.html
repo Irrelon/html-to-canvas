@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML to Canvas Test Page</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../lib/IgeClass.js"></script>
+<script src="../index.js"></script>
+<script>
+	var hc = null;
+	$(document).ready(function () {
+		hc = new IgeHtmlCanvas();
+		
+		hc.initContainer();
+		hc.loadView('../views/test1.html', '../views/test1.css');
+		
+		$('#render').click(function () { hc.renderHtml(); });
+	});
+</script>
+<style>
+	body {
+		margin:0;
+		padding:0;
+	}
+</style>
+</head>
+
+<body>
+	<input type="button" id="render" value="Render" style="position:absolute; right:10px; top:10px; z-index:1000;" />
+</body>
+</html>

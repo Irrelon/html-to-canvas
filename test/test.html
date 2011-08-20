@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<canvas id="test" width="200" height="200"></canvas>
+<script>
+var roundedRect=function(ctx,x,y,width,height,radius,fill,stroke){
+    ctx.save();	// save the context so we don't mess up others
+    ctx.beginPath();
+    ctx.moveTo(x+radius,y);			// top side
+    ctx.lineTo(x+width-radius,y);
+    // draw top right corner
+    ctx.arcTo(x+width,y,x+width,y+radius,radius);
+    ctx.lineTo(x+width,y+height-radius);	// right side
+    // draw bottom right corner
+    ctx.arcTo(x+width,y+height,x+width-radius,y+height,radius); 
+    ctx.lineTo(x+radius,y+height);		// bottom side
+    // draw bottom left corner
+    ctx.arcTo(x,y+height,x,y+height-radius,radius);
+    ctx.lineTo(x,y+radius);			// left side
+    // draw top left corner
+    ctx.arcTo(x,y,x+radius,y,radius);
+    ctx.closePath();
+    if(fill){
+	ctx.fill();
+    }
+    if(stroke){
+	ctx.stroke();
+    }
+    ctx.restore();	// restore context to what it was on entry
+}
+var c4=document.getElementById("test");
+var ctx4=c4.getContext('2d');
+ctx4.strokeStyle='rgb(150,0,0)';
+ctx4.fillStyle='rgb(0,150,0)';
+ctx4.lineWidth=7;
+roundedRect(ctx4,15,15,160,120,20,true,true);
+ctx4.strokeStyle='rgb(150,0,150)';
+ctx4.fillStyle='rgba(0,0,150,0.6)';
+ctx4.lineWidth=7;
+roundedRect(ctx4,95,95,160,150,40,true,false);
+</script>
+</body>
+</html>
