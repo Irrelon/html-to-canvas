@@ -20,3 +20,16 @@ Supported CSS:
 * text inside an element
 * background repeat
 * border styles (like dashed etc)
+## How do I run the demo myself?
+Extract the files to a web server (AJAX is in use so this will NOT run off a normal folder).
+
+Load ./test/index.html
+
+Click the "Render" button top-right.
+
+You can edit the HTML that the test renders by editing the ./views/test1.html and ./views/test1.css files.
+
+#Isogenic Game Engine
+This project is part of the Isogenic Game Engine, an HTML5 Networked, MMO, Isometric and 2D, Canvas or DOM, Realtime game engine for the modern web. (http://www.isogenicengine.com).
+
+If you like this project, please +1 us on our site!
