@@ -9,6 +9,7 @@ There are so many reasons why this is useful but the main purpose of this projec
 You can convert any simple HTML styled with CSS into a canvas image. It currently supports DIV tags. Haven't done any testing with other elements yet and will MOST DEFINITELY not support input tags!
 
 Supported CSS:
+
 * Border settings for left, top, right, bottom including widths, colours and radius
 * Background colours
 * Background images
