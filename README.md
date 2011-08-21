@@ -15,12 +15,15 @@ Supported CSS:
 * Background images
 * Element positions
 * Element dimensions
+
 ## What should be added for the future?
+
 * z-index
 * opacity
 * text inside an element
 * background repeat
 * border styles (like dashed etc)
+
 ## How do I run the demo myself?
 Extract the files to a web server (AJAX is in use so this will NOT run off a normal folder).
 
