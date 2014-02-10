@@ -1,6 +1,5 @@
 # HTML+CSS to Canvas Renderer
-## Demo - Click the "Render" button on the page top-right to render the HTML to canvas!
-[Demo Page](http://www.isogenicengine.com/html-canvas/test/index.html)
+
 ## What can I do with it?
 Convert HTML styled with CSS into canvas image data.
 ## Why would I do that?
